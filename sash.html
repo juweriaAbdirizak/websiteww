@@ -1,0 +1,781 @@
+<style>
+  
+
+    
+
+
+  .search{
+    background-color: #eee;
+      padding: 8px;
+      margin-left: 55px;
+      border-radius: 10px;
+      height: 30px;
+      width: 300px;
+      margin-top: 10px;
+    
+    
+      
+  }
+ 
+  
+  .inputsearch{
+  
+      background-color: #eee;
+      border: none;
+      width: 250px;
+      height: 20%;
+      padding: 8px;
+   border-radius: 10px solid grey;
+     
+  }
+  .inputsearch:hover{
+      border:none;
+      outline: none;
+  }
+  
+  .inputsearch:focus{
+      border: none;
+      outline: none;
+  }
+
+    .icon2 img{
+                  margin-top: 22px;
+                  width: 15px;
+                  margin-left: 280px;
+                  display: inline-block;
+               
+                  position: absolute;
+                  background-image: none;
+                  display: flex;
+                  background-color:none;
+   
+                  
+      
+    }
+    select{
+        border: none;
+        color:blue;
+        font-weight: bold;
+      font-family: sans-serif;
+      margin-top: -30px;
+    background:fixed;
+    margin-left: 330px;
+
+    }
+    .img3 img{
+        max-width:36px;
+       margin-top: 14px;
+       margin-left: 300px;
+    }
+
+ 
+
+.icon4 {
+    
+    display: flex;
+      justify-content: center;
+       margin-top:-4px;
+      align-items: center;  
+      
+     
+}
+.icon5{
+    margin-top:13px;
+    margin-left: 15px;
+}
+.icon6{
+    margin-top:18px;
+    margin-left: 20px;
+}
+.icon7{
+    margin-top:12px;
+    margin-left: 20px;
+}
+.icon8{
+    margin-top:13px;
+    margin-left: 25px;
+}
+.icon9{
+    margin-top:13;
+    margin-left: 28px;
+}
+
+.menu-bar ul li a{
+    text-decoration:none ;
+    color:white;
+
+}
+
+.menu-bar ul li img{
+    width:25px;
+    height: 40px;
+    border-radius: 16px;
+    display: flex;
+    margin-top: -16%;
+    margin-left:40% ;
+}
+    
+  
+      
+     .sub-menu{
+        display:none;
+     } 
+     .menu-bar ul li:hover .sub-menu{
+        display:block;
+        position: absolute;
+        background: #ffffff;
+        margin-top: 15px;
+        margin-left: -80px;
+        border-radius: 3px;
+     }
+     .menu-bar ul li:hover .sub-menu ul{
+        display:block;
+        margin: 10px;
+     }
+     .menu-bar ul li:hover .sub-menu ul li{
+        width:130px;
+        padding: 10px;
+        border-bottom: 2px  inset grey;
+        
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    
+        border-bottom-left-radius: 23px 20px;
+        border-bottom-right-radius: 10px 20px;
+    
+        
+        
+     }
+     .dash1{
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: 20px;
+        color:#282f53;
+     }
+     .homes{
+        margin-left: 800px;
+     }
+    .menu-bar{
+        margin-left: -5px;
+    }
+     ul li {
+        list-style: none;
+        line-height: 20px;
+     }
+     .sub-menu li img{
+                       display: flex;
+                       position: absolute;
+                  
+     }
+     .img8{
+        width: 20px;
+       margin-top: 23px;
+       margin-left: 20px;
+       height: 20px;
+     }
+   
+
+     .border{
+    /*  border:1px solid gray; */
+  }
+  
+  .siderbar{
+      width: 20%;
+      height: 800px;
+      margin-top: 1%;
+  }
+  
+  .content{
+      width: 80%;
+      height: 400px;
+  
+      background-color: #F1F1F1;
+
+  }
+  .mybody{
+      display: flex;
+  }
+
+  
+  
+  .topheader{
+      background-color: white;
+      padding: 1px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom-left-radius:0in;
+  }
+  .app-sidebar__toggle{
+    margin-top: 15px;
+    margin-left: -380px;
+  }
+  
+ 
+  
+ 
+  
+  
+.angle{
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+    margin-right: 2px;
+    font-size: 11px;
+}
+.sub-menu-bar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 400;
+    
+    color: #282f53;
+    margin: 2px 0px;
+    white-space: nowrap;
+    display:block;
+     position: absolute;
+        background: #ffffff;
+        margin-top: 15px;
+        margin-left: 70px;
+        border-radius: 3px;
+}
+.sub-menu-bar ul{
+    list-style: none;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;    
+    list-style-type: disc;
+    display: flex;
+}
+select {
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+
+
+}
+option :active{
+   backface-visibility: hidden;
+   border-radius: 10px solid grey;
+
+}
+.tool3{
+    margin-top: -800px;
+    margin-left: -260px;
+}
+
+.main{
+  
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 15px;
+    color: gray;
+    margin-top: 0px;
+
+}
+
+h2{
+    font-size: 14px;
+    color: #6c5ffc;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    margin-top: -35px;
+}
+h1{
+    font-size: 14px;
+    color: #282f53;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    margin-top: -35px;
+}
+.aps{
+    margin-top: -60px;
+}
+.ukit{
+    color:#282f53;
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-top: -25px;
+    padding: 10px;
+}
+h1 a{
+    text-decoration: none;
+    
+}
+.boxs{
+    width: 250px;
+    height: 150px;
+    background-color: #fff;
+    margin-left:45px;
+    display: block;
+    border-radius: 7px;
+  
+}
+.boxs_1{
+    width: 250px;
+    height: 150px;
+    background-color: #fff;
+    margin-left:360px;
+    margin-top:-150px;
+    border-radius: 7px;
+    display: block;
+}
+.boxs_2{
+    width: 250px;
+    height: 150px;
+    background-color: #fff;
+    margin-left:700px;
+    margin-top: -16%;
+    border-radius: 7px;
+    
+}
+
+
+
+.img1{
+    max-width: 60px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.bottons{
+    width: 70%;
+    height: 78%;
+    background-color: #fff;
+    margin:10px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.boton1{
+    width: 20%;
+    height: 78%;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: -39%;
+    margin-left: 800px;
+    display: flex;
+    
+}
+.daily{
+        width:100%;
+        height: 500px; 
+        background-color: #F1F1F1;
+        margin-top:40px;
+}
+.dailys{
+    width:100%;
+        height: 500px; 
+        background-color: #f1f1f1;
+        margin-top:450px;
+}
+.daily-activity{
+    width:30%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left: 20px;
+ 
+    
+}
+.daily2{
+    width:30%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left: 350px;
+    margin-top: -450px;
+}
+.daily3{
+    width:30%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-left: 710px;
+    margin-top: -450px;
+}
+.profile1{
+    width: 100%;
+    height: 1000px;
+    background-color: #F1F1F1;
+}
+.boxp1{
+    width: 95%;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    margin-left: 2%;
+}
+.profile-cover__action bg-img{
+
+
+display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    padding: 252px 30px 10px 185px;
+    border-radius: 5px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: end;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    overflow: hidden;
+    background: url(../images/media/profile-background1.jpg) no-repeat;
+    background-size: cover;
+}
+.imagep img{
+   margin-left: 40px;
+   margin-top:-20px;
+   max-width: 200px;
+   
+
+}
+.icons1{
+    margin-top:-55px;
+    margin-left: 60%;
+    border-radius: 10px;
+}
+.bottoms{
+  
+   
+ 
+
+}
+.bottoms1{
+    width:23%;
+    height: 35%;
+    background-color: #fff;
+    border-radius: 9px;
+    margin-top: 2%;
+    margin-left: 20px;
+}
+.botton2{
+    width:40%;
+    height: 35%;
+    background-color: #fff;
+    border-radius: 9px;
+    margin-top: -34%;
+    margin-left: 300px;
+    
+}
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web</title>
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <body>
+        
+        <div class="mybody">
+            
+
+            <div class="siderbar border">
+                
+      
+                <img src="lsas.png" alt="image"> 
+    <!-- logo div -->
+   
+    <!--   end logo -->
+    
+            </div>
+            <div class="content border">
+              
+                    
+                
+    
+    
+    <div class="topheader">
+  
+ 
+        <div class="search">
+            <input  type="text" placeholder="Search" class="inputsearch">
+    
+
+        
+        </div> 
+       
+        <div class="app-sidebar__toggle">
+            <img src="sides.PNG" alt="image">
+
+        </div>
+        <div class="icon2">
+            <img src="se.png">
+        </div>
+
+        <div class="toolright">
+
+            <div class="img3">
+                <img src="word.png" style="filter: invert(39%) sepia(65%) saturate(1171%) hue-rotate(183deg) brightness (93%)  contrast (105%);">
+            </div>
+             
+                <select>
+                    <option selected="selected " value="english" >English </option>
+                    <option value="somalia"> Somalia </option>
+                    
+                    <option value="Arabic" class="drop"> ARABIC </option>
+
+                    <option value="TANZANIA"> TANZANIA </option>
+
+                    <option value=" BANGALADESH "> BANGLADESH </option>
+
+                    <option value="SWEDISH"> SWEDISH </option>
+
+                    <option value="CHINA"> CHINA </option>
+
+            </select>
+        </div>
+        <div class="icon4">
+        
+          <img src="moon.PNG" alt="image">
+    </div>
+    <div class="icon5">
+        <img src="cart1.png" alt="image">
+    </div>
+    <div class="icon6">
+        <img src="xe.PNG" alt="image">
+    </div>
+<div class="icon7">
+<img src="notific.PNG">
+</div>
+<div class="icon8">
+<img src="k.PNG">
+</div>
+<div class="icon9">
+<img src="sd.PNG">
+</div>
+
+<div class="menu-bar">
+        <ul>
+            <li class="a1"><img src="hijab.jfif"></a>
+            <div class="sub-menu">
+            <ul>
+            <li ><img src="pro.jfif" alt="image">profile </li>
+            <li><a href="#"></a><img src="inbox.png"> inbox </li>
+            <li><a href="#"></a><img src="lock.png">lockscreen </li>
+            <li><a href="#"></a><img src="out.png">sign out</li>
+        </ul>
+        
+            </div>
+        </li>
+    </ul>
+</div>
+<img src="set.PNG" class="img8">
+    </div>
+  
+    <div class="contents">
+        <div class="dashboard">
+            <p class="dash1"> Dashboard 01</p> 
+            <h1 class="homes">Home / <a href="#">Dashboard 01</a></h1>
+            <div class="boxs">
+                <img src="da.png" class="img1">
+                <p style="color:gray;margin-top:-20%;margin-left: 20px;"> Total Users</p>
+              <h2 style="color:black;font-size20px;">44,278</h2>
+              <img src="box1img1.PNG" style="margin-left:13px;margin-top: -20px;"> 
+              <h2 style="color:gray;font-size:13px;margin-top: -50px;margin-left:20px">last 6 days  </h2>
+          
+            </div>
+        </div>
+      
+            
+            <div class="boxs_1">
+                <img src="xidig.PNG" class="img1">
+              <p style="color:gray;margin-top:-10%;margin-left: 20px;"> Total profit </p>
+           
+              <h2 style="color:black;font-size:20px;">67,987</h2>
+              <img src="box1img1.PNG" style="margin-left:13px;margin-top: -20px;"> 
+              <h2 style="color:gray;font-size:13px;margin-top: -50px;margin-left:20px">last 6 days  </h2>
+             
+            </div>
+             
+            <div class="boxs_2">
+         
+                <p style="color:gray;padding: 25px;;margin-left: 20px;"> Total expreince</p>
+                <img src="d1.PNG" style="margin-top:-10%;margin-left: 150px;">
+                <h2 style="color: black;font-size:20px;margin-top: -100px">76,996</h2>
+                <img src="box1img1.PNG"style="margin-left:13px;margin-top: -5%;"> 
+                <h2 style="color:gray;font-size:13px;margin-top:-19% ;margin-left:20px">last year  </h2>
+               
+              </div>
+           
+
+       </div>
+   
+
+<div class="daily">
+    <div class="profile">
+        <p style="color:gray;padding: 20px;">Profile</p>
+        <p style="color:gray;margin-left: 85%;margin-top: -5%;">Home / profile</p>
+        <div class="bottons">
+            <div class="botton1">
+                <p style="colro:gray;padding:20px;font-family:verdana;">Sales Analytics</p>
+                
+               
+                <img src="sale1.PNG" style="margin-top:-1%;margin-left:40px;max-width:630px;height: 300px;">
+                
+                
+            </div>
+    
+        </div>
+        <div class="boton1">
+            <img src="recent.PNG" style="margin-top:2%;border-radius:3px;margin-left:20px;max-width:800px;height: 350px;">
+    
+           
+        </div>
+    
+    </div>
+<div class="dailys">
+    <div class="daily-activity">
+        <p>Daily activity </p>
+        <img src="daily.PNG">
+    </div>
+    <div class="daily2">
+        <img src="canada.PNG">
+
+    </div>
+    <div class="daily3">
+        <img src="chorome.PNG">
+
+    </div>
+
+
+    
+</div>
+<div class="profile1">
+    <p style="color:black;padding:30px"> profile </p>
+    <p style="color:gray;margin-left:900px;">page   /Profile</p>
+    <div class="boxp1">
+        
+        <div class="buttonf">
+            <div class="profile-cover__action bg-img">
+               
+                <img src="pros.PNG" style="width:98%;border-radius: 10px;margin-left: 10px;margin-top: 5px;">
+              
+            </div>
+            <button style="background-color:blue;color:white;width:100px;border:none;border-radius:3px;height:40px;margin-top: -26%;margin-left:700PX;"> 
+                 <img src="wife.PNG" style="margin-left:-90%"><p style="margin-top:-20%">follow</p>
+            </button>
+
+            <button style="background-color:blue;color:white;width:100px;border:none;border-radius:3px;height:40px;margin-top: -26%;margin-left:860PX;"> 
+                <img src="wife.PNG" style="margin-left:-90%"> <p style="margin-top:-20%">messege</p>
+               
+           </button>
+           <div class="imagep">
+            <img src="persu.PNG" style="border-radius: 24px;border-color:white;border:1px;"><p style="color:black;font-family:verdana;margin-top:-55px;margin-left:150px">percy kewshan</p><h1 style="color:gray;margin-left:140px">web developer</h1>
+        
+           <div class="icons1">
+                <a class="social-icon text-primary" href="https://twitter.com/" ><img src="fa.PNG">
+                <a class="social-icon text-primary" href="https://twitter.com/" ><img src="twit.PNG">
+                    <a class="social-icon text-primary" href="https://twitter.com/" ><img src="you.PNG">
+                        <a class="social-icon text-primary" href="https://twitter.com/" ><img src="wif.PNG">
+                            <a class="social-icon text-primary" href="https://twitter.com/" ><img src="in.PNG">
+                    
+                                <a class="social-icon text-primary" href="https://twitter.com/" ><img src="G.PNG">
+                                </div>
+                    
+        </div>
+          
+        </div>
+        
+   
+</div>
+<div class="bottoms">
+    <div class="bottoms1">
+        <p style="color:gray;text-decoration:none;margin-left: 120px;margin-bottom: -10px;padding: 10px;">Post</p>
+        <img src="postq.png" style="margin-left:50px">
+        <p  style="margin-left:120px;margin-bottom: -20px;color:gray">folowers</p>
+   
+        <img src="folowers.PNG" style="margin-left:50px">
+        <p style="margin-left:120px ;margin-bottom: -20px ;color:gray">Following</p>
+        <img src="follow.PNG" style="margin-left:50px">
+  
+</div>
+<div class="botton2">
+    <div class="botton3" style="border: 1px solid rgb(168, 168, 168);width:80%;height:75%;background-color:#fff;margin-left: 26px;padding: 20px;">
+    <h1 style="color:gray">whats your mand right know</h1>
+    <img src="mand.PNG"> <button style="border:none;width: 25%;height:10%;background-color:rgb(135, 184, 135);border-radius: 3px;margin-top: 75%;margin-left: 150;">Share</button>
+    </div>
+  <div class="botton2" style="width:60%;height:150%;background-color:#fff;border-radius:3px;margin-left: 440px;margin-top:-74%;">
+    <h2 style="font-size:30px;color:black">folowers</h2>
+    <img src="jimmy.PNG"  style="margin-left:40px"> <p>john page </p> <button style="border:none;color:white;width: 25%;height:10%;background-color:rgb(25, 104, 215);border-radius: 3px;margin-top: -40%;margin-left: 150;">follow</button>
+    <img src="jimmy.PNG"  style="margin-left:40px"> <p>john page </p><button style="border:none;color:white;width: 25%;height:10%;background-color:rgb(25, 104, 215);border-radius: 3px;margin-top: -40%;margin-left: 150;">follow</button>
+    <img src="lilan.PNG"  style="margin-left:40px"> <p>Lian quinn </p><button style="border:none;color:white;width: 25%;height:10%;background-color:rgb(25, 104, 215);border-radius: 3px;margin-top: -40%;margin-left: 150;">follow</button>
+    <img src="jk.PNG"  style="margin-left:20px"> <p> Harry fisher </p><button style="border:none;color:white;width: 25%;height:10%;background-color:rgb(25, 104, 215);border-radius: 3px;margin-top: -40%;margin-left: 150;">follow</button>
+
+  </div>
+
+</div>
+
+</div> 
+
+    </div>
+  
+ </div>
+ 
+
+<div class="tool3">
+  
+    <div class="dashboard">
+        <p class="main">Main</p>
+
+        <h2>Dashboard</h2>
+            <img src="h.PNG " class="aps">
+            <P class="ukit">UI KIT</P>
+            <h1>Apps</h1>
+            <img src="hash.PNG " class="aps">
+            <h1>Bootstrap</h1>
+            <img src="boot.png " class="aps">
+            <h1>Landing Page</h1>
+            <img src="land.png " class="aps">
+            <h1>Pre-Build page</h1>
+            <h1> Pages</h1>
+            <img src="pre.png " class="aps">
+            <h1>E-commerce</h1>
+            <img src="bor.PNG " class="aps">
+             <h1>File manager</h1>
+            <img src="man.png " class="aps">
+            <h1>Music pages</h1>
+            <h1>Authentication</h1>
+            <img src="atu.PNG" class="aps">
+            <h1>Sub-menu</h1>
+            <img src="sub.png" class="aps">
+            <h1>Maps</h1>
+            <img src="map.PNG" class="aps"> 
+            <h1>Charts</h1>
+            <img src="chart.PNG" class="aps"> 
+            <h1>Icons</h1>
+            <img src="icons.PNG" class="aps"> 
+
+
+
+    </div>
+  
+    
+</div>
+
+</div>
+
+     
+
+    </body>
+</html>
